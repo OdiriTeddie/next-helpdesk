@@ -13,7 +13,7 @@ export default function Navbar() {
         quality={100}
         placeholder="blur"
       />
-      <h1>Wema Helpdesk</h1>
+      {/* <h1>Wema Helpdesk</h1> */}
       <Link href="/">Dashboard</Link>
       <Link href="/tickets"> Tickets </Link>
     </nav>
