@@ -13,7 +13,7 @@ export async function generateStaticParams() {
 
 async function getTickets(id) {
   // imitate delay
-  await new Promise((resolve) => setTimeout(resolve, 3000));
+  await new Promise((resolve) => setTimeout(resolve, 500));
 
   const response = await fetch("http://localhost:4000/tickets/" + id, {
     next: {

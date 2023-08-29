@@ -13,9 +13,12 @@ export default function Home() {
         aspernatur consequuntur ex mollitia quaerat?
       </p>
 
-      <div className="flex justify-center my-8">
+      <div className="flex justify-center my-8 gap-4">
         <Link href="/tickets">
           <button className="btn-primary">View Tickets</button>
+        </Link>
+        <Link href="/tickets/create">
+          <button className="btn-primary">Create Ticket</button>
         </Link>
       </div>
 

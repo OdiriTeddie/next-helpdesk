@@ -2,7 +2,7 @@ import Link from "next/link";
 
 async function getTickets() {
   // imitating delay
-  await new Promise((resolve) => setTimeout(resolve, 3000));
+  await new Promise((resolve) => setTimeout(resolve, 500));
 
   const response = await fetch("http://localhost:4000/tickets", {
     next: {
